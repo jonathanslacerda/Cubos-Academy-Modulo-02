@@ -54,4 +54,6 @@ app.get("/zerar", (req, res) => {
 });
 
 
-app.listen(8000);
+app.listen(8000, () => {
+    console.log(`Servidor iniciado!`)
+});
